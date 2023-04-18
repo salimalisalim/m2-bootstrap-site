@@ -1,0 +1,36 @@
+#navbarSupportedContent .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+
+.form-control::placeholder { 
+    color: rgb(21, 164, 33);
+}
+
+.navbar-brand img {
+    width: 120px;
+    height: auto;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item img{
+    max-height: 350px;
+    width: auto;
+}
+
+@media only screen and (max-width:768px) {
+    #carouselExampleCaptions .carousel-inner .carousel-item img{
+        max-height: 250px;
+        width: auto;
+    }
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption{
+    background: rgba(11, 11, 11,0.6);
+}
+
+header .navbar .navbar-toggler{
+    border: solid 1px rgb(200, 200, 200);
+    background-color: aliceblue;
+}
+header .navbar .navbar-toggler .navbar-toggler-icon{
+    color:aliceblue ;
+}
